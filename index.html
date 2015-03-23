@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Ionic 101 -  Construyendo una TODO App</title>
+		<title>Meteor Intro</title>
 
-		<meta name="description" content="Construyendo una TODO App">
+		<meta name="description" content="Intro a MeteorJS">
 		<meta name="author" content="Bootcampwithus">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -16,7 +16,7 @@
 		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -42,121 +42,188 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1><img width="150" style="background:none; border:none; box-shadow:none;" src="css/images/Ionic-Icon.png"/> Ionic 101</h1>
-					<h3>Construyendo una TODO App</h3>
+					<h1><img width="150" style="background:none; border:none; box-shadow:none;" src="css/images/meteor-icon.png"/> Meteor Intro</h1>
 					<p>
-						<small>Instructor(es):<br/> <a href="http://io.carlosrojasblog.com">Carlos Rojas</a> [carlos@bootcampwith.us] / <a href="http://twitter.com/carlosrojas_o">@carlosrojas_o</a><br/>
-
-						Jhon Cortes</a> [jhon@bootcampwith.us] / <a href="http://twitter.com/jhon_ecg">@jhon_ecg</a>
-						</small>
+						<small><a href="http://io.carlosrojasblog.com">Carlos Rojas</a> <a href="http://twitter.com/carlosrojas_o">@carlosrojas_o</a></small>
 					</p>
 				</section>
 
-				
+
 
 				<section>
 					<section>
 					<h2>¿Que estamos haciendo?</h2>
 					<p>
-						<img width="55%" style="border:0" src="images/meme1.gif"/> 
+						<img width="55%" style="border:0" src="images/meme1.gif"/>
 					</p>
 					</section>
 					<section>
-						<h2>1. Idearemos</h2>
-						<p><img width="55%" style="border:0" src="images/brain.jpg"/></p>
+						<h2>1. Que es Meteor?</h2>
+						<p><img width="45%" style="background:none; border:none; box-shadow:none;" src="css/images/meteor-icon.png"/></p>
 					</section>
 					<section>
-						<h2>2. Diseñaremos</h2>
-						<p><img width="55%" style="border:0" src="images/mockups.png"/></p>
+						<h2>2. Demo</h2>
+
 					</section>
 					<section>
-						<h2>3. Prototiparemos</h2>
-						<p><img width="55%" style="border:0" src="images/prototipo.png"/></p>					
+						<h2>3. Starter Apps que puedes usar.</h2>
+
 					</section>
 					<section>
-						<h2>4. Probaremos</h2>
-						<p><img width="55%" style="border:0" src="images/testing.jpg"/></p>						
-					</section>
-					<section>
-						<h2>5. Mediremos</h2>
-						<p><img width="55%" style="border:0" src="images/measure.jpg"/></p>					
+						<h2>4. Recursos de Aprendizaje.</h2>
+
 					</section>
 				</section>
 
 				<section>
 					<section>
-					<h1>1</h1>
+					<h1>1. ¿Que es Meteor?</h1>
 					</section>
 					<section>
-						<p><img width="55%" style="border:0" src="images/todolist.png"/></p>
-					</section>
-					
-				</section>
+						<h2>¿Que es Meteor?</h2>
+						<ul>
+							<li>Es una plataforma para construir web y movil apps en Javascript.</li>
+							<li>Construida para aprovechar la proxima generacion de Apps.<br/>
+								<ul>
+									<li>Interfaces de Usuario enriquecidas.</li>
+									<li>Aplicaciones multi-usuarios colaborativas.</li>
+									<li>Listas para plataforma cruzada (web,movil).</li>
+									<li>Desarrollo Rapido.</li>
+								</ul></li>
 
-				<section>
-					<section>
-					<h1>2</h1>
-					</section>
-					<section>
-						<p><img width="55%" style="border:0" src="images/TodoMock.png"/></p>
-					</section>
-					
-				</section>
-
-				<section>
-					<section>
-					<h1>3</h1>
-					</section>
-					<section>
-						<h2>Alcance del Prototipo.</h2>
-						<p>
-							<ul>
-							<li>
-								Agregar Items.
-						   </li>
-						   <li>
-								Remover Items.
-						   </li>
-						   <li>
-								Ver Items.
-						   </li>
 						</ul>
-					</p>
 					</section>
 					<section>
-						<img width="55%" style="border:0" src="images/1.png"/>
-					</section>
-					
-					<section>
-						<p><img width="55%" style="border:0" src="images/2.png"/></p>
-					</section>
-					<section>
-						<p><img width="55%" style="border:0" src="images/3.png"/></p>
-					</section>
-					<section>
-						<p><img width="55%" style="border:0" src="images/4.png"/></p>
+						<h2>¿Como las apps modernas se ven y sienten?</h2><br/>
+						<img height="150" style="border:0" src="images/modernWebApps.png"/>
+						<ul>
+							<li>Enfocado en las caracteristicas unicas de tu app en lugar de agregar codigo de red, websocket, etc.</li>
+							<li>Construida para aprovechar la proxima generacion de Apps.</li>
+							<li><b>El objetivo de Meteor es:</b> <i>Crear Apps de la calidad de Facebook sin el dinero de Facebook...</i></li>
+						</ul>
 					</section>
 					<section>
-						<p><img width="55%" style="border:0" src="images/5.png"/></p>
+						<h2>Las herramientas antiguas no sirven para las apps modernas</h2>
+						<ul>
+							<li>Las apps modernas sirven datos, no HTML.</li>
+							<li>Las apps modernas no deberian tener un boton de <i>Actualizar</i>.</li>
+							<li>Rail, Django, PHP, ASP, etc. son dificiles de adaptar al nuevo modelo.</li>
+						</ul>
 					</section>
-					<section>
-						<p><img width="55%" style="border:0" src="images/6.png"/></p>
-					</section>
-
 				</section>
 
 				<section>
 					<section>
-					<h1>4</h1>
+					<h1>2. Demo</h1>
 					</section>
-					
+					<section>
+						<p><i>Que los dioses de los demos esten entre nosotros...</i></p>
+					</section>
+					<section>
+						<h1>Componentes</h1>
+					</section>
+					<section>
+						<h2>LiveQuery</h2>
+						<p>Peticiones en tiempo real a la base de datos.</p>
+					</section>
+					<section>
+						<h2>DDP</h2>
+						<p>Suscribir a cambios en la base de datos.</p>
+					</section>
+					<section>
+						<h2>MiniMongo</h2>
+						<p>Ejecutar peticiones a la base de datos en el cliente.</p>
+					</section>
+					<section>
+						<h2>Tracker</h2>
+						<p>Re ejecuta funciones cuando los datos cambian.</p>
+					</section>
+					<section>
+						<h2>Blaze</h2>
+						<p>Conserva actualizada la vista con tus datos.</p>
+					</section>
 				</section>
 
 				<section>
 					<section>
-					<h1>5</h1>
+					<h1>3. Starter Apps que puedes usar.</h1>
 					</section>
-					
+					<section>
+						<h2>TODOs</h2>
+						<p><small>Una App de lista de tareas</small></p>
+						<code>
+							$# meteor create --example todos
+						</code>
+					</section>
+					<section>
+						<h2>Local Market</h2>
+						<p><small>Una App Movil de fidelización</small></p>
+						<code>
+							$# meteor create --example localmarket
+						</code>
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h1>4. Recursos de Aprendizaje.</h1>
+					</section>
+					<section>
+						<h2>Negocios construidos sobre Meteor</h2><br/>
+						<img width="55%" style="border:0" src="images/buildinmeteor.png"/>
+					</section>
+					<section>
+						<h2>Workpop - Construido en Meteor</h2><br/>
+						<img width="55%" style="border:0" src="images/workpop.png"/>
+						<p>Levanto $7.9 MM en la Serie A liderado por Trinity Ventures</p>
+					</section>
+					<section>
+						<h2>Creciendo Rapidamente</h2>
+						<ul>
+							<li>Más de 150 Grupos de Meteor alrededor del mundo - meetup.meteor.com</li>
+							<li>Más de 2000 paquetes creados por la comunidad - atmospherejs.com</li>
+							<li>"Discover Meteor" ha hecho mas de US $300.000 en venta de libros (hasta Sept. 2014)</li>
+							<li>Puntuado #11 en Github.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Grupos de meteor en el mundo.</h2><br/>
+						<img width="55%" style="border:0" src="images/meetup.png"/>
+					</section>
+					<section>
+						<h2>Aprendiendo Meteor.</h2>
+
+					</section>
+					<section>
+						<h3>Meteor.com</h3>
+						<pre>meteor.com/learn</pre>
+					</section>
+					<section>
+						<h3>Tutorial oficial de Meteor.</h3>
+						<pre>meteor.com/install</pre>
+					</section>
+					<section>
+						<h3>Discover Meteor.</h3>
+						<pre>book.discovermeteor.com</pre>
+					</section>
+					<section>
+						<h3>EventedMind.</h3>
+						<pre>eventedmind.com</pre>
+					</section>
+					<section>
+						<h3>Stack Overflow, etiquetado Meteor.</h3>
+					</section>
+					<section>
+						<h3>Documentos oficiales de Meteor.</h3>
+						<pre>docs.meteor.com</pre>
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h1>Gracias :)</h1>
+					</section>
+
 				</section>
 
 			</div>
